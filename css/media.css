@@ -81,6 +81,12 @@
         flex-wrap: wrap;
     }
 
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .menu,
     .logo {
         width: 100%;
@@ -100,12 +106,18 @@
         font-size: 22px;
         padding-top: 70px;
         padding-bottom: 14px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .heading-intro {
         font-size: 30px;
         width: auto;
         margin-top: 38px;
+    }
+
+    .heading-intro-sm {
+        font-size: 18px;
     }
     
     .box {
@@ -133,6 +145,9 @@
 
     .red-btn {
         width: 280px;
+        height: 40px;
+        display: block;
+        line-height: 0.9;
     }
 
     .intro-box {
