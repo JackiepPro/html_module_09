@@ -39,13 +39,13 @@
     src: url(../fonts/DroidSerif-Italic.ttf);
 }
 
-.wrapper {
-    padding-bottom:73px;
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(../fonts/Roboto-Light.ttf);
 }
 
-.conteiner {
-    width: 320px;
-    padding-bottom: 57px;
+.wrapper {
+    padding-bottom:73px;
 }
 
 .header {
@@ -85,7 +85,7 @@
 }
 
 .heading-intro-sm {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
     font-weight: 300;
     font-size: 18px;
     padding: 0 40px;
